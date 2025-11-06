@@ -10,41 +10,92 @@
 
     <header>
         <h1>Cosmos Hotel</h1>
-        <button id="preturiBtn">Afișare prețuri</button>
+        <nav>
+            <ul>
+                <li><a href="#contacte">Contacte</a></li>
+                <li><a href="#camere">Camere</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+            </ul>
+        </nav>
     </header>
 
+    <section class="hero" id="home">
+    <h2>Bine ai venit la <span>Cosmos Hotel</span></h2>
+    <p>Locul unde te relaxezi sub stele și trăiești experiența completă a confortului.</p>
+</section>
 
-    <div class="section">
-        <h2>Bine ai venit la Cosmos Hotel</h2>
-        <p>Locul unde te relaxezi sub stele.</p>
+<div class="slider">
+    <img id="sliderImg" src="images/beach-view.jpg" alt="Slider Image">
+    <div class="slider-text">
+        <h2>Cosmos Hotel</h2>
+        <p>Relax, enjoy, and feel at home under the stars</p>
     </div>
 
-
-<div class="galerie">
-
-  <div class="card">
-    <img src="camera-deluxe.jpg">
-    <div class="info">
-      Camera Deluxe — 1450 MDL / noapte
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="suita-premium.jpg">
-    <div class="info">
-      Suită Premium — 1890 MDL / noapte
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="Executive-Suite.jpg">
-    <div class="info">
-      Suită Executive — 2200 MDL / noapte
-    </div>
-  </div>
-
+    <button id="prev">&#10094;</button>
+    <button id="next">&#10095;</button>
 </div>
 
-<script src="app.js"></script>
+    <div class="camere" id="camere">
+
+      <div class="card">
+        <img src="images/camera-deluxe.jpg" alt="Camera Deluxe">
+        <div class="info">
+          <h3 class="titlu">Camera Deluxe</h3>
+          <p class="descriere">Spațioasă, modernă și foarte luminoasă — perfectă pentru relaxare totală.</p>
+          <div class="price">1450 MDL / noapte</div>
+          <button class="detalii">Detalii</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/suita-premium.jpg" alt="Suită Premium">
+        <div class="info">
+          <h3 class="titlu">Suită Premium</h3>
+          <p class="descriere">Suită cu living separat, decor modern și mai mult spațiu pentru confort.</p>
+          <div class="price">1890 MDL / noapte</div>
+          <button class="detalii">Detalii</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/Executive-Suite.jpg" alt="Suită Executive">
+        <div class="info">
+          <h3 class="titlu">Suită Executive</h3>
+          <p class="descriere">Design premium, spațiu generos și experiență de nivel superior.</p>
+          <div class="price">2200 MDL / noapte</div>
+          <button class="detalii">Detalii</button>
+        </div>
+      </div>
+
+    </div>
+
+   <div class="section" id="galerie">
+    <h2>Galerie</h2>
+    <p>Descoperă cele mai frumoase locuri și facilități ale hotelului nostru.</p>
+
+    <div class="gallery-grid">
+        <div class="gallery-item">
+            <img src="images/beach-view.jpg" alt="Beach View">
+        </div>
+        <div class="gallery-item">
+            <img src="images/main-hall.jpg" alt="Main Hall">
+        </div>
+        <div class="gallery-item">
+            <img src="images/indoor-pool.jpg" alt="Indoor Pool">
+        </div>
+        <div class="gallery-item">
+            <img src="images/2nd pool.jpg" alt="Secons Pool">
+        </div>
+    </div>
+</div>
+
+    <div class="section" id="contacte">
+        <h2>Contacte</h2>
+        <p>Email: contact@cosmoshotel.md</p>
+        <p>Telefon: +373 22 123 456</p>
+        <p>Adresă: Str. 31 August 78, Chișinău, Moldova</p>
+    </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
