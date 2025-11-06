@@ -1,9 +1,9 @@
 
 let imgs = [
-    "images/beach-view.jpg",
+    "images/one side.jpg",
     "images/main-hall.jpg",
-    "images/indoor-pool.jpg",
-    "images/2nd pool.jpg"
+    "images/lux.jpg",
+    "images/THE view.jpg"
 ];
 let i = 0;
 
