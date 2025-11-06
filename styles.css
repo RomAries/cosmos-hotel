@@ -102,26 +102,33 @@ header h1 {
 }
 
 .galerie {
-    display:flex;
-    flex-wrap:wrap;
-    gap:14px;
-    justify-content:center;
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content:center;
+  padding:60px 0;
 }
 
 .galerie .card {
-    width:260px;
-    height:160px;
-    border-radius:8px;
-    overflow:hidden;
-    position:relative;
-    border:1px solid rgba(60,90,240,0.12);
+  width:300px;
+  background:white;
+  border-radius:16px;
+  overflow:hidden;
+  box-shadow:0 6px 18px rgba(0,0,0,0.15);
+  border:4px solid white;
 }
 
 .galerie img {
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    display:block;
+  width:100%;
+  height:200px;
+  object-fit:cover;
+}
+
+.galerie .info{
+  padding:14px;
+  text-align:center;
+  font-size:15px;
+  color:#3b3b3b;
 }
 
 .caption {
